@@ -5,12 +5,12 @@ const Contact = () => {
     return (
         <div className="container">
             <div className="row text-center py-5">
-                        <div className="col section-title text-center">
-                            <h2>Contact</h2>
-                            <span>Home</span>
-                            <span> / Contact</span>
-                        </div>
-                    </div>
+                <div className="col section-title text-center">
+                    <h2>Contact</h2>
+                    <span>Home</span>
+                    <span> / Contact</span>
+                </div>
+            </div>
             <section className="contact-area py-5">
                 <div className="container">
                     <div className="section-title text-center text-uppercase py-3 mb-3">
@@ -21,22 +21,22 @@ const Contact = () => {
                             <div className="contact">
                                 <form>
                                     <div className="form-group">
-                                    <div className="row mb-3">
-                                        <div className="col-md-6 mb-3">
-                                            <input type="text" className="form-control p-3" placeholder="Enter Your Name" />
+                                        <div className="row mb-3">
+                                            <div className="col-md-6 mb-3">
+                                                <input type="text" className="form-control p-3" placeholder="Enter Your Name" />
+                                            </div>
+                                            <div className="col-md-6">
+                                                <input type="email" className="form-control p-3" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Email" />
+                                            </div>
                                         </div>
-                                        <div className="col-md-6">
-                                            <input type="email" className="form-control p-3" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Email" />
+                                        <div className="row mb-3">
+                                            <div className="col-md-6 mb-3">
+                                                <input type="tel" className="form-control p-3" placeholder="Enter Your Phone" />
+                                            </div>
+                                            <div className="col-md-6">
+                                                <input type="url" className="form-control p-3 " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Web Site" />
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div className="row mb-3">
-                                        <div className="col-md-6 mb-3">
-                                            <input type="tel" className="form-control p-3" placeholder="Enter Your Phone" />
-                                        </div>
-                                        <div className="col-md-6">
-                                            <input type="url" className="form-control p-3 " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Web Site" />
-                                        </div>
-                                    </div>
                                     </div>
                                     <input type="text" className="form-control mb-3 p-3 " placeholder="Subject" />
                                     <textarea className="form-control mb-3 p-3 " name="" id="" cols="30" rows="10">Message</textarea>
