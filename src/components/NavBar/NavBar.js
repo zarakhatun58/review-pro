@@ -16,7 +16,7 @@ const NavBar = () => {
         <div>
             <Navbar expand="lg" variant="dark">
                 <Container>
-                    <Navbar.Brand href="/home" className="education-logo">Our Code Education</Navbar.Brand>
+                    <Navbar.Brand href="/home" className="education-logo">Our Code Educations</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">
